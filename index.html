@@ -117,6 +117,7 @@
         </div>
         <div class="navigation-grid">
           <article class="navigation-card primary-card">
+            <img class="navigation-image" src="assets/flight planning.png" alt="Infinity Charts flight planning screen">
             <h3>Plan by terrain, time, and references</h3>
             <p>Build a route in seconds, then use the elevation profile to inspect terrain along the path with maximum elevation, MEF, and MORA. Leg ticks can be time-based or distance-based, and time ticks update from ground speed.</p>
           </article>
@@ -126,7 +127,7 @@
           </article>
           <article class="navigation-card">
             <h3>Fly without the magenta line</h3>
-            <p>Hide the GPS aircraft position, navigate from rivers, lakes, villages, cliffs, wind drift, and elapsed time, then switch between true and magnetic headings when needed.</p>
+            <p>Hide the GPS aircraft position, navigate from rivers, lakes, villages, cliffs, wind drift, and elapsed time. Switch between true and magnetic headings when needed.</p>
           </article>
           <article class="navigation-card">
             <h3>Keep the work</h3>
@@ -165,37 +166,6 @@
           <div class="computer" aria-label="Esso flight computer overlay">
             <img class="computer-base" src="assets/esso-true-course-base-plate.png" alt="">
             <img class="computer-rotor" src="assets/esso-true-course-rotating-plate.png" alt="">
-          </div>
-        </div>
-      </section>
-
-      <section class="section tabs-section" aria-labelledby="details-title">
-        <div class="section-heading">
-          <p class="eyebrow">Operational detail</p>
-          <h2 id="details-title">What ships</h2>
-        </div>
-        <div class="tabs" data-tabs>
-          <div class="tab-list" role="tablist" aria-label="Product details">
-            <button type="button" role="tab" aria-selected="true" aria-controls="panel-map" id="tab-map">Map</button>
-            <button type="button" role="tab" aria-selected="false" aria-controls="panel-ifr" id="tab-ifr">IFR</button>
-            <button type="button" role="tab" aria-selected="false" aria-controls="panel-server" id="tab-server">Server</button>
-            <button type="button" role="tab" aria-selected="false" aria-controls="panel-release" id="tab-release">Release</button>
-          </div>
-          <div class="tab-panel active" role="tabpanel" id="panel-map" aria-labelledby="tab-map">
-            <h3>Map-first EFB surface</h3>
-            <p>Default zoom, follow mode, hidden aircraft mode, aircraft heading, integer wheel zoom, map rotation, route overlays, click info, facility markers, airways, obstacles, and declutter behavior live in one map surface.</p>
-          </div>
-          <div class="tab-panel" role="tabpanel" id="panel-ifr" aria-labelledby="tab-ifr" hidden>
-            <h3>Procedure and plate workflow</h3>
-            <p>IFR mode switches base layers, hides normal route overlays, renders selected procedures, keeps labels clear of route geometry, and supports URL-loaded airport and procedure state.</p>
-          </div>
-          <div class="tab-panel" role="tabpanel" id="panel-server" aria-labelledby="tab-server" hidden>
-            <h3>Local terrain and overlay server</h3>
-            <p>The server packages runtime assets, renders overlay PNG tiles, exposes health diagnostics, hosts update data, and keeps large generated chunks outside the simulator package.</p>
-          </div>
-          <div class="tab-panel" role="tabpanel" id="panel-release" aria-labelledby="tab-release" hidden>
-            <h3>Patreon access</h3>
-            <p>Release output includes EFB, toolbar, and terrain server artifacts, plus an Electron launcher that discovers the MSFS Community folder and updates existing components.</p>
           </div>
         </div>
       </section>
