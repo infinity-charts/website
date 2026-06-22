@@ -149,7 +149,7 @@ a {
   height: 100%;
   display: block;
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
 }
 
 .hero-map::after {
@@ -371,6 +371,7 @@ a {
 .hero-stats {
   display: grid;
   grid-template-columns: 0.9fr 1.4fr 0.95fr;
+  align-items: stretch;
   gap: 16px;
   margin: 40px 0 0;
 }
@@ -381,7 +382,8 @@ a {
   grid-template-columns: auto 1fr;
   gap: 16px;
   align-items: center;
-  min-height: 122px;
+  height: 100%;
+  min-height: 214px;
   padding: 22px 24px;
   border: 1px solid rgba(10, 18, 22, 0.14);
   background:
@@ -397,17 +399,6 @@ a {
   inset: 0 auto 0 0;
   width: 5px;
   background: var(--cyan);
-}
-
-.hero-stats .stat-card::after {
-  content: "";
-  position: absolute;
-  right: -38px;
-  top: -42px;
-  width: 126px;
-  height: 126px;
-  border: 1px solid rgba(72, 185, 208, 0.2);
-  border-radius: 50%;
 }
 
 .stat-card.stat-msfs::before {
@@ -538,7 +529,7 @@ h3 {
 .feature-grid p,
 .workflow-copy p,
 .buy p,
-.status-grid p,
+.updates-grid p,
 .tab-panel p {
   color: var(--muted);
   line-height: 1.6;
@@ -843,28 +834,28 @@ h3 {
   pointer-events: none;
 }
 
-.status {
+.updates {
   background: #ffffff;
   color: #171613;
 }
 
-.status .eyebrow {
+.updates .eyebrow {
   color: #236d75;
 }
 
-.status-grid {
+.updates-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 
-.status-grid article {
+.updates-grid article {
   padding: 24px;
   border: 1px solid rgba(23, 22, 19, 0.18);
   background: rgba(255, 255, 255, 0.26);
 }
 
-.status-grid p {
+.updates-grid p {
   color: rgba(23, 22, 19, 0.74);
 }
 
@@ -896,7 +887,7 @@ h3 {
   .feature-grid,
   .split,
   .buy,
-  .status-grid,
+  .updates-grid,
   .navigation-grid,
   .hero-stats,
   .tabs {
@@ -961,7 +952,7 @@ h3 {
 
   .hero-stats .stat-card {
     grid-template-columns: auto 1fr;
-    min-height: 104px;
+    min-height: 128px;
     padding: 18px;
   }
 
