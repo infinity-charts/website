@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Infinity Charts for Microsoft Flight Simulator 2024: unlimited generated VFR charts, IFR procedures, route tools, terrain profiles, timing, drawing, rulers, and local terrain server workflow.">
+    <title>Infinity Charts</title>
+    <link rel="icon" href="assets/app-icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-elevated="false">
+      <a class="brand" href="#top" aria-label="Infinity Charts home">
+        <img src="assets/app-icon.png" alt="" width="36" height="36">
+        <span>Infinity Charts</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#navigation">VFR</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#buy">Buy</a>
+        <a href="#status">Status</a>
+      </nav>
+      <a class="header-action" href="https://www.patreon.com/InfinityCharts">Buy</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-map" aria-hidden="true">
+          <img src="assets/infinicharts thumbnail 2.jpg" alt="">
+        </div>
+        <div class="hero-content">
+          <!-- <img class="hero-logo" src="assets/infinity-charts-logo-new.jpg" alt="Infinity Charts"> -->
+          <h1 id="hero-title">Infinity Charts</h1>
+          <p>Unlimited, never-outdated MSFS 2024 EFB charts with worldwide VFR styles, IFR procedures, route timing, terrain profiles, drawing tools, rulers, and cockpit-style utilities.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://www.patreon.com/InfinityCharts">Buy on Patreon</a>
+            <a class="button secondary" href="#features">View features</a>
+          </div>
+          <dl class="hero-stats" aria-label="Key capabilities">
+            <div class="stat-card stat-msfs">
+              <span class="stat-icon" aria-hidden="true">EFB</span>
+              <div>
+                <dt>MSFS 2024</dt>
+                <dd>Ingame EFB and Toolbar apps</dd>
+              </div>
+            </div>
+            <div class="stat-card stat-maps">
+              <span class="stat-icon" aria-hidden="true">MAP</span>
+              <div>
+                <dt>Maps</dt>
+                <dd>Global Sectional, TPC, ICAO, CAA, IFR and more</dd>
+              </div>
+            </div>
+            <div class="stat-card stat-nav">
+              <span class="stat-icon" aria-hidden="true">060</span>
+              <div>
+                <dt>Navigation</dt>
+                <dd>Visual, timed, true or magnetic</dd>
+              </div>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section feature-band" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">TemplateApp plus video transcript</p>
+          <h2 id="features-title">Flight-map feature set</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-icon">VFR</span>
+            <h3>Worldwide chart styles</h3>
+            <p>Generated chart backgrounds let one familiar style cover any part of the world, including US sectional, TPC, ICAO-style, terrain, and overlay-focused views.</p>
+          </article>
+          <article>
+            <span class="feature-icon">IFR</span>
+            <h3>IFR procedures</h3>
+            <p>Dedicated IFR base layer, procedure lists, deep links, generated plates, final approach labels, missed approach routing, holds, MSA display, and terrain-aware legend placement.</p>
+          </article>
+          <article>
+            <span class="feature-icon">MAP</span>
+            <h3>Layer control</h3>
+            <p>Turbo raster base layers, Google Terrain and OpenStreetMap options, server-rendered transparent overlays, retrying tile requests, and merged overlay delivery.</p>
+          </article>
+          <article>
+            <span class="feature-icon">NAV</span>
+            <h3>Search and facilities</h3>
+            <p>Airport, VOR, NDB, FIX, airspace, and facility lookup ordered by aircraft proximity, with fast compact indexes for the legacy simulator browser.</p>
+          </article>
+          <article>
+            <span class="feature-icon">FPL</span>
+            <h3>Fast route planning</h3>
+            <p>Click route legs to add waypoints, drag them into place, view distance and magnetic course per leg, then import, export, paste, reverse, rename, or reorder the plan.</p>
+          </article>
+          <article>
+            <span class="feature-icon">TLS</span>
+            <h3>Cockpit tools</h3>
+            <p>Built-in number cruncher, analog chronograph, calculator watch, Esso flight computer, drawing, eraser, undo, JSON import/export, and physical or detached rulers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section navigation-section" id="navigation" aria-labelledby="navigation-title">
+        <div class="section-heading">
+          <p class="eyebrow">Video workflow</p>
+          <h2 id="navigation-title">Old-school VFR, in the sim</h2>
+        </div>
+        <div class="navigation-grid">
+          <article class="navigation-card primary-card">
+            <h3>Plan by terrain, time, and references</h3>
+            <p>Build a route in seconds, then use the elevation profile to inspect terrain along the path with maximum elevation, MEF, and MORA. Leg ticks can be time-based or distance-based, and time ticks update from ground speed.</p>
+          </article>
+          <article class="navigation-card">
+            <h3>Measure like paper</h3>
+            <p>Rotate the chart, pull out the ruler, read radial and nautical-mile distance, draw notes directly on the map, and cross out segments as you fly.</p>
+          </article>
+          <article class="navigation-card">
+            <h3>Fly without the magenta line</h3>
+            <p>Hide the GPS aircraft position, navigate from rivers, lakes, villages, cliffs, wind drift, and elapsed time, then switch between true and magnetic headings when needed.</p>
+          </article>
+          <article class="navigation-card">
+            <h3>Keep the work</h3>
+            <p>Save and load routes plus map artwork so long trips, hand-drawn notes, and visual checkpoints stay preserved between flights.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="workflow" aria-labelledby="workflow-title">
+        <div class="workflow-copy">
+          <p class="eyebrow">Use in Game</p>
+          <h2 id="workflow-title">True Navigation</h2>
+          <p>Infinity Charts keeps map rendering practical for Microsoft Flight Simulator's embedded browser. The app favors OpenLayers, canvas, raster layers, generated PNG assets, and local server endpoints over WebGL-only paths.</p>
+          <div class="check-list">
+            <p>Separate Chrome preview and MSFS runtime behavior.</p>
+            <p>Bundled EFB app and resizable toolbar panel package.</p>
+            <p>Local terrain server with health diagnostics and data update workflow.</p>
+            <p>Built-in MSFS LIDO chart integration path with generated IFR plates as fallback.</p>
+            <p>CoherentGT-safe rendering with OpenLayers, canvas, raster layers, and generated PNG assets.</p>
+          </div>
+        </div>
+        <div class="tool-display" aria-label="Cockpit tools preview">
+          <div class="chrono-watch" aria-label="Chronograph overlay">
+            <img class="chrono" src="assets/chronograph-body.png" alt="">
+            <img class="chrono-bezel" src="assets/chronograph-gmt-bezel.png" alt="">
+            <span class="watch-hand hour-hand" aria-hidden="true"></span>
+            <span class="watch-hand minute-hand" aria-hidden="true"></span>
+            <span class="watch-hand second-hand" aria-hidden="true"></span>
+            <span class="watch-hand gmt-hand" aria-hidden="true"></span>
+            <span class="sub-hand sub-top" aria-hidden="true"></span>
+            <span class="sub-hand sub-left" aria-hidden="true"></span>
+            <span class="sub-hand sub-bottom" aria-hidden="true"></span>
+            <span class="watch-pin" aria-hidden="true"></span>
+          </div>
+          <img class="calc" src="assets/calculator-body.png" alt="Calculator watch overlay">
+          <img class="computer" src="assets/esso-true-course-computer.svg" alt="Esso flight computer overlay">
+        </div>
+      </section>
+
+      <section class="section tabs-section" aria-labelledby="details-title">
+        <div class="section-heading">
+          <p class="eyebrow">Operational detail</p>
+          <h2 id="details-title">What ships</h2>
+        </div>
+        <div class="tabs" data-tabs>
+          <div class="tab-list" role="tablist" aria-label="Product details">
+            <button type="button" role="tab" aria-selected="true" aria-controls="panel-map" id="tab-map">Map</button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="panel-ifr" id="tab-ifr">IFR</button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="panel-server" id="tab-server">Server</button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="panel-release" id="tab-release">Release</button>
+          </div>
+          <div class="tab-panel active" role="tabpanel" id="panel-map" aria-labelledby="tab-map">
+            <h3>Map-first EFB surface</h3>
+            <p>Default zoom, follow mode, hidden aircraft mode, aircraft heading, integer wheel zoom, map rotation, route overlays, click info, facility markers, airways, obstacles, and declutter behavior live in one map surface.</p>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-ifr" aria-labelledby="tab-ifr" hidden>
+            <h3>Procedure and plate workflow</h3>
+            <p>IFR mode switches base layers, hides normal route overlays, renders selected procedures, keeps labels clear of route geometry, and supports URL-loaded airport and procedure state.</p>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-server" aria-labelledby="tab-server" hidden>
+            <h3>Local terrain and overlay server</h3>
+            <p>The server packages runtime assets, renders overlay PNG tiles, exposes health diagnostics, hosts update data, and keeps large generated chunks outside the simulator package.</p>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-release" aria-labelledby="tab-release" hidden>
+            <h3>Patreon access</h3>
+            <p>Release output includes EFB, toolbar, and terrain server artifacts, plus an Electron launcher that discovers the MSFS Community folder and updates existing components.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section buy" id="buy" aria-labelledby="buy-title">
+        <div>
+          <p class="eyebrow">GitHub Pages ready</p>
+          <h2 id="buy-title">Buy Infinity Charts</h2>
+          <p>Get Infinity Charts through Patreon. This website is plain static HTML, CSS, JavaScript, and copied image assets, ready for GitHub Pages deployment.</p>
+        </div>
+        <div class="buy-panel">
+          <h3>Patreon</h3>
+          <p>Open the Infinity Charts Patreon page for access and release information.</p>
+          <a class="button primary" href="https://www.patreon.com/InfinityCharts">Buy on Patreon</a>
+        </div>
+      </section>
+
+      <section class="section status" id="status" aria-labelledby="status-title">
+        <div class="section-heading">
+          <p class="eyebrow">Known scope</p>
+          <h2 id="status-title">Current strengths and gaps</h2>
+        </div>
+        <div class="status-grid">
+          <article>
+            <h3>Strong now</h3>
+            <p>Worldwide generated chart styles, VFR route editing, IFR generated plates, terrain profile, MEF and MORA, route timing ticks, map overlays, search, drawing, rulers, chronograph, calculator, flight computer, FPL import/export.</p>
+          </article>
+          <article>
+            <h3>Not a preflight service yet</h3>
+            <p>Flight-plan filing, official weather briefings, TFR and NOTAM workflow, ADS-B, aircraft performance planning, weight and balance, and logbook workflows remain outside current requirements.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Infinity Charts</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
