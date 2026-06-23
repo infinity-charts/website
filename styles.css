@@ -124,6 +124,17 @@ a {
   border-color: rgba(255, 255, 255, 0.24);
 }
 
+.header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-action-free {
+  background: #236d75;
+  border-color: #236d75;
+}
+
 .hero {
   position: relative;
   min-height: 0;
@@ -365,6 +376,12 @@ a {
   background: #ffffff;
   color: #15191b;
   border-color: rgba(21, 25, 27, 0.22);
+}
+
+.button.free {
+  background: #236d75;
+  color: #ffffff;
+  border-color: #236d75;
 }
 
 .hero-stats {
@@ -842,6 +859,12 @@ img.navigation-media {
   color: #15191b;
 }
 
+.buy-panel .button.free {
+  background: #236d75;
+  border-color: #236d75;
+  color: #ffffff;
+}
+
 .button[aria-disabled="true"] {
   opacity: 0.72;
   pointer-events: none;
@@ -938,6 +961,10 @@ img.navigation-media {
   .header-action {
     min-height: 38px;
     padding: 0 12px;
+  }
+
+  .header-actions {
+    gap: 8px;
   }
 
   .hero {
