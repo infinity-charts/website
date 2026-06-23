@@ -90,12 +90,29 @@ a {
   font-size: 14px;
 }
 
+.nav-icon-link {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: #5865f2;
+  color: #ffffff;
+}
+
+.discord-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  fill: currentColor;
+}
+
 .nav-links a,
 .footer a {
   text-decoration: none;
 }
 
-.nav-links a:hover,
 .nav-links a:hover {
   color: #ffffff;
 }
@@ -133,6 +150,11 @@ a {
 .header-action-free {
   background: #236d75;
   border-color: #236d75;
+}
+
+.header-action-discord {
+  background: #5865f2;
+  border-color: #5865f2;
 }
 
 .hero {
@@ -382,6 +404,13 @@ a {
   background: #236d75;
   color: #ffffff;
   border-color: #236d75;
+}
+
+.button.discord {
+  margin-top: 12px;
+  background: #5865f2;
+  color: #ffffff;
+  border-color: #5865f2;
 }
 
 .hero-stats {
